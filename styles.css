@@ -1,0 +1,149 @@
+
+@font-face {
+    font-family: CaskaydiaCove;
+    src: url("assets/CaskaydiaCoveNerdFont-Regular.ttf");
+}
+
+body {
+    background-color: #1e1e1e;
+    font-family: CaskaydiaCove, Arial, Helvetica, sans-serif;
+}
+
+a {
+    color:#E6368C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#mainStage {
+    width: 1124px;
+    margin:auto;
+    margin-top: 100px;
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#sec1 {
+    height: 450px;
+    color: white;
+}
+
+#sec1Left {
+    width: 450px;
+    float: left;
+}
+
+#screen {
+    width:600px;
+    float: right;
+}
+
+#logoBox {
+    font-size: 48px;
+    display: block;
+    margin: 0 0 60px 0;
+    width:450px;
+    height: 100px;
+}
+
+#mainLogo {
+    width: 73px;
+    margin: 0px 0px 0 0;
+    float: left;
+}
+
+#logoText {
+    height: 60px;
+    float: left;
+    margin: 22px 0 0 33px;
+}
+
+#headerLine {
+    font-size: 23px;
+    line-height: 41px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#installBtn {
+    width:265px;
+    margin-top: 60px;
+}
+
+#sec2 {
+    width:100%;
+    height: 420px;
+    margin-top: 250px;
+}
+
+.textBox {
+    width:290px;
+    height: 300px;
+    text-align: center;
+}
+
+.leftBox {
+    float: left;
+}
+
+.rightBox {
+    float: right;
+}
+
+.middleBox {
+    float:left;
+    margin-left: 130px;
+}
+
+.boxTitle {
+    font-size: 28px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.faqBox {
+    margin-bottom: 90px;
+    height: auto;
+}
+
+.faqTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.green {
+    color:#6DDB8C;
+}
+
+#footer {
+    color: #5A5A5A;
+    font-size: 15px;
+    text-align: center;
+    margin: 300px 0 200px 0;
+}
+
+#footerLogo {
+    width: 27px;
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+    margin: -90px 0 0 -140px;
+    
+}
+
+#quoteBox {
+    width: 800px;
+    background-color: #233528;
+    padding: 50px 100px;
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 200px;
+}

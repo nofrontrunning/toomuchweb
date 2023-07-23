@@ -43,7 +43,7 @@ a:hover {
 }
 
 #logoBox {
-    font-size: 48px;
+    font-size: 58px;
     display: block;
     margin: 0 0 60px 0;
     width:450px;
@@ -72,6 +72,11 @@ a:hover {
 #installBtn {
     width:265px;
     margin-top: 60px;
+    cursor: hand;
+}
+
+#installBtn:hover {
+    opacity: 0.5;
 }
 
 #sec2 {

@@ -152,3 +152,99 @@ a:hover {
     margin: auto;
     margin-bottom: 200px;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        width: 100%;
+        margin: 0 0;
+    }
+
+    #mainStage {
+        width: 90%;
+        margin: 70px auto 0 auto;
+    }
+
+    #logoBox {
+        width:100%;
+    }
+
+    #logoText {
+        margin:20px 0;
+        display: block;
+        width:100%;
+        text-align: center;
+    }
+
+    #mainLogo {
+        float: none;
+        margin: auto;
+        display: block;
+    }
+
+    #sec1 {
+        height: auto;
+    }
+
+    #sec2 {
+        margin-top: 80px;
+        height: auto;
+    }
+
+    #sec1Left {
+        width: auto;
+        margin-bottom: 70px;
+    }
+
+    #headerLine {
+        text-align: center;
+    }
+
+    #installBtn {
+        margin: auto;
+        display: block;
+    }
+
+    #screen {
+        float: none;
+        display: block;
+        width:100%;
+    }
+
+    .textBox {
+        width:100%;
+        display: block;
+    }
+
+    .leftBox{
+        float: none;
+        
+    }
+
+    .middleBox {
+        margin-left: 0;
+        float: none;
+    }
+
+    .rightBox {
+        float: none;
+    }
+
+    .textBox {
+        width: auto;
+    }
+
+    #quoteBox {
+        width:auto;
+        text-align: center;
+        padding: 30px 10px;
+    }
+
+    #avatar {
+        float: none;
+        display: block;
+        margin:auto;
+    }
+}

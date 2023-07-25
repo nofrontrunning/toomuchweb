@@ -1,5 +1,15 @@
 <html>
     <header>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PC150H5S8K"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-PC150H5S8K');
+        </script>
+        
         <link rel="stylesheet" href="styles.css">
         <title>TooMuch</title>
         <link rel="shortcut icon" type="image/png" href="assets/fav.png">
@@ -14,7 +24,7 @@
                         <div id="logoText">TooMuch</div>
                     </div>
                     <div id="headerLine">
-                        An open-sourced, lightweight Chrome extension warns you for better swap rates
+                        An open-sourced, lightweight Chrome extension auto compares swap rates
                     </div>
                     <img src="assets/button.png" id="installBtn" />
 
@@ -24,12 +34,12 @@
 
             <div id="sec2">
                 <div class="textBox leftBox">
-                    <div class="boxTitle green">Auto Warnings</div>
-                    Auto detect swap activities and compare rates with all major DEXes and aggregators.
+                    <div class="boxTitle green">Auto Detection</div>
+                    Auto detect swap activities and compare rates with major DEXes and aggregators.
                 </div>
                 <div class="textBox middleBox">
                     <div class="boxTitle green">Safe To Use</div>
-                    No wallet connections, all code <a href="">open-sourced</a>.
+                    No wallet connections, all code <a href="https://github.com/nofrontrunning/toomuchextension" target="_blank">open-sourced</a>.
                 </div>
                 <div class="textBox rightBox">
                     <div class="boxTitle green">Top Coverage</div>
@@ -40,7 +50,7 @@
          
             <div id="quoteBox">
                 <img src="assets/avatar.jpg" id="avatar" />
-                Hi, I am <a href="https://twitter.com/codephobic" target="_blank">@codephobic</a>, I am a researcher in the Ethereum eco-system, I built this because I am a little stingy and always want the lowest rate.
+                Hi, I am <a href="https://twitter.com/codephobic" target="_blank">@codephobic</a>, I am a researcher in the Ethereum eco-system, I built this because I am stingy and always want the lowest rate.
             </div>
 
     
@@ -49,35 +59,44 @@
                 <div class="boxTitle">FAQs</div>
                 <div class="faqBox">
                     <div class="faqTitle green">How does this work?</div>
-                    TooMuch grabs the quote from your page when you are swapping, compares it with all major DEX aggregators via their API and show you the best prices.
+                    TooMuch detects and grabs quote from the web page before you confirm swap, compares it with all major DEX aggregators via their API and show you the results.
                 </div>
 
                 <div class="faqBox">
                     <div class="faqTitle green">How safe is this?</div>
-                    It is very safe. The extension does not connect to your wallets, nor does it have access to any transactions. 
-                    All it does is grab the quote from your page and compare it with all major DEXs and aggregators. 
-                    The codebase is <a href="">fully open-sourced</a> on Github, you can also <a href="https://www.howtogeek.com/198964/how-to-view-the-source-code-of-a-chrome-extension/" target="_blank">inspect the extension code directly</a>.
-                </div>
-
-                <div class="faqBox">
-                    <div class="faqTitle green">What do I use it?</div>
-                    Install and forget about it, the extension will automatically detect your swapping activity and popup with rate comparison before you confirm swap. For a quick test, go to uniswap and try to swap some tokens.
-                </div>
-
-                <div class="faqBox">
-                    <div class="faqTitle green">What’s the difference from using a DEX aggregator?</div>
-                    1. You do not need to be on a specific site, TooMuch works on all major Ethereum DEXes like Uniswap, 1inch, Sushi Swap, 0x and more.<br/><br/>
-                    2. TooMuch warns you more than swaps, like staking rates on Lido and Rocket Hub.
-                </div>
-
-                <div class="faqBox">
-                    <div class="faqTitle green">Full list of supporting DEXs?</div>
-                    Uniswap, 1inch, sushi, curve, pancakeswap, balancer, matcha, paraswap, cowswap, lifi, rocket pool, lido
+                    Very safe. The extension does not connect to your wallets, nor does it have access to your transactions. 
+                    All it does is grabbing and comparing quote. The codebase is <a href="https://github.com/nofrontrunning/toomuchextension" target="_blank">fully open-sourced</a> on Github, you can also <a href="https://www.howtogeek.com/198964/how-to-view-the-source-code-of-a-chrome-extension/" target="_blank">inspect the extension code directly</a>.
                 </div>
 
                 <div class="faqBox">
                     <div class="faqTitle green">Is it free?</div>
-                    Yes. I might add a paid plan in the future, but basic usage will always be free.
+                    Yes. I might add a paid plan in the future, but basic usage will always be free. It makes me dance in front my computer every time you <a href="https://twitter.com">share</a> and <a href="">review</a> TooMuch.  
+                </div>
+
+                <div class="faqBox">
+                    <div class="faqTitle green">How do I use it?</div>
+                    Install and forget about it, the extension will automatically detect and popup with rate comparison before you swap. For a quick test, go to uniswap and pretend to swap some tokens.
+                </div>
+
+                <div class="faqBox">
+                    <div class="faqTitle green">What chains does it support?</div>
+                    Currently only Ethereum mainnet, Ethereum L2s and other EVM chains in the pipeline.          
+                </div>
+
+                <div class="faqBox">
+                    <div class="faqTitle green">What’s the difference from using a DEX aggregator?</div>
+                    1. No need to be on a specific site, TooMuch works on all major Ethereum DEXes and aggregators.<br/><br/>
+                    2. TooMuch warns you more than swaps, like LSD prices on Lido and Rocket Hub when you stake ETH.
+                </div>
+
+                <div class="faqBox">
+                    <div class="faqTitle green">Full list of supporting DEXs?</div>
+                    Uniswap, 1inch, Sushi, Curve, Pancakeswap, Balancer, Matcha, Paraswap, Cowswap, Lifi, Rocket Pool, Lido, Defillama, Dodo, Maverick.
+                </div>
+
+                <div class="faqBox">
+                    <div class="faqTitle green">Bug reports and feature suggestions?</div>
+                    Please open an issue on <a href="https://github.com/nofrontrunning/toomuchextension" target="_blank">Github</a>.
                 </div>
 
                 <div class="faqBox">
@@ -88,8 +107,8 @@
 
             <div id="footer">
                 <img src="assets/logo.png" id="footerLogo" /> <br/><br/>
-                Go save some money and buy an ice-cream.<br/>
-                <a href="">GitHub</a>       <a href="">ChromeStore</a>
+                Save some money and buy an ice-cream.<br/>
+                <a href="https://github.com/nofrontrunning/toomuchextension" target="_blank">GitHub</a>       <a href="">ChromeStore</a>
             </div>
 
         </div>

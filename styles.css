@@ -73,6 +73,7 @@ a:hover {
     width:265px;
     margin-top: 60px;
     cursor: hand;
+    border: none;
 }
 
 #installBtn:hover {
